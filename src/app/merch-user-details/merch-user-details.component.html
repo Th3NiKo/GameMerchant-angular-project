@@ -1,0 +1,19 @@
+<div>
+    <h1>{{user?.login}}</h1>
+    <span class="label">User rating:</span>
+    <span>{{rating | number}} </span>
+    <br>
+    <span class="label">Number of votes:</span>
+    <span>{{user?.rates.length}} </span>
+    <br>
+    <p class="label">Comments about this user:</p>
+    <p class="comment" *ngFor="let comment of user?.comments; let i = index"> {{comment}}</p>
+</div>
+
+<div>
+        <h2 style="clear:both;">Games owned by this user</h2>
+        <app-merch-game-list [GameList] = "UserGames" [UserList] = "[user]" [showSearched] = "false" [showLogin]="false"></app-merch-game-list>
+        <h2 style="clear:both;">Games searched by this user</h2>
+        <app-merch-game-list [GameList] = "UserSearch" [UserList] = "[user]" [showOwned] = "false" [showLogin]="false"></app-merch-game-list>
+
+</div>

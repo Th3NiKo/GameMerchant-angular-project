@@ -1,0 +1,27 @@
+
+<label>Search: <input type="text" [ngModel]="test" #ref></label>
+<div *ngIf="showOwned" style="clear: both">
+<span *ngFor="let game of GameList | searchfilter: ref.value " >
+<div *ngFor="let user of game?.whoHas" class="box">
+    <section [routerLink]="['/game', game.id]">
+        <h3>{{game.name}} </h3>
+        <img [src]="game.imageUrl">
+   
+    <p *ngIf="showLogin" [routerLink]="['/user', user]">{{user}}</p>
+    </section>
+</div>
+</span>
+</div>
+
+<div *ngIf="showSearched" style="clear: both">
+<span *ngFor="let game of GameList | searchfilter: ref.value " >
+<div *ngFor="let user of game?.whoWant" class="box"  >
+        <section [routerLink]="['/game', game.id]">
+            <h3>{{game?.name}}</h3>
+            <img [src]="game?.imageUrl">
+         
+        <p *ngIf="showLogin" [routerLink]="['/user', user]">{{user}}</p>
+        </section>
+</div>
+</span>
+</div>

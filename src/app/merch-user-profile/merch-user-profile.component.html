@@ -1,0 +1,14 @@
+<div>
+<h1>Hello, {{user.login}}!</h1>
+<p class="label">Your basic information:</p>
+<p>Rates from other users: <span *ngFor="let rate of user.rates">{{rate}}  </span></p>
+<p>Rating: {{rating | number}}</p>
+<p>Number of games u have: {{numberOfGames}}</p>
+<p>Number of games u search: {{numberOfSearch}}</p>
+<p class="label">Comments about you:</p>
+<div class="comment" *ngFor="let comment of user.comments; let i = index">{{comment}}</div>
+
+
+
+
+</div>

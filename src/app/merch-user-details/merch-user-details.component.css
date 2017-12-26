@@ -1,0 +1,21 @@
+div{
+    color: white;
+}
+
+.label {
+    font-size: 1.15em;
+    color: darkred;
+}
+
+.comment{
+    color: black;
+    margin: 15px;
+    display: inline-block;
+    padding: 0 25px;    
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+
+}

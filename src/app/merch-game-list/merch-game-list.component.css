@@ -1,0 +1,46 @@
+.box {
+    color: white;
+    float :left;
+    margin: 20px 50px;
+    text-align: center;
+    
+
+}
+section{
+    transition: transform .2s;
+    margin: 0 auto;
+    
+}
+
+select {
+    text-align: center;
+}
+
+section:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+
+}
+h2 {
+    color: red;
+    clear: both;
+}
+img {
+    max-height: 150px;
+}
+
+p:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+label {
+    float:right;
+    color: white;
+}
+
+input {
+    background-color: red;
+    color: white;
+}

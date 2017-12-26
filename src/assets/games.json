@@ -1,0 +1,66 @@
+[
+  {
+    "id" : "0",
+    "name" : "Dark Souls 3",
+    "description":"Dont even try" ,
+    "imageUrl": "assets/0.png",
+    "type": "RPG",
+    "whoHas": ["SoulsLover"],
+    "whoWant": ["Newbie"]
+  },
+  {
+    "id" : "1",
+    "name" : "Battelfield 1",
+    "description":"Kill everyone" ,
+    "imageUrl": "assets/1.png",
+    "type": "FPS",
+    "whoHas": ["Newbie","BadBoy"],
+    "whoWant": []
+  },
+  {
+    "id" : "2",
+    "name" : "The Elder Scrolls V: Skyrim",
+    "description":"The Elder Scrolls V: Skyrim is an open world action role-playing video game developed by Bethesda Game Studios and published by Bethesda Softworks. It is the fifth main installment in The Elder Scrolls series, following The Elder Scrolls IV: Oblivion, and was released worldwide for Microsoft Windows, PlayStation 3 and Xbox 360 on November 11, 2011. The game's main story revolves around the player character and their quest to defeat Alduin the World-Eater, a dragon who is prophesied to destroy the world. The game is set two hundred years after the events of Oblivion, and takes place in the fictional province of Skyrim. Over the course of the game, the player completes quests and develops the character by improving skills. The game continues the open world tradition of its predecessors by allowing the player to travel anywhere in the game world at any time, and to ignore or postpone the main storyline indefinitely." ,
+    "imageUrl": "assets/2.png",
+    "type": "RPG",
+    "whoHas": ["DragonBlood"],
+    "whoWant": []
+  },
+  {
+    "id" : "3",
+    "name" : "The Witcher 3: Wild Hunt",
+    "description":"The Witcher® 3: Wild Hunt is a story-driven, next-generation open world role-playing game, set in a visually stunning fantasy universe, full of meaningful choices and impactful consequences. You play as Geralt of Rivia, a monster hunter tasked with finding a child from an ancient prophecy" ,
+    "imageUrl": "assets/3.png",
+    "type": "RPG",
+    "whoHas": [],
+    "whoWant": ["Geralt99"]
+  },
+  {
+    "id" : "4",
+    "name" : "Need for speed: Carbon",
+    "description":"Need for Speed: Carbon gameplay is similar to Need for Speed: Most Wanted and Underground 2, but based upon rival street racing crews instead of individuals. Players run a crew and can hire specific street racers to be in their crew and the active friendly racer is known as a wingman." ,
+    "imageUrl": "assets/4.png",
+    "type": "Racing",
+    "whoHas": ["FastAndFurious"],
+    "whoWant": []
+  },
+  {
+    "id" : "5",
+    "name" : "Grand Theft Auto V",
+    "description":"Grand Theft Auto V is an action-adventure video game developed by Rockstar North and published by Rockstar Games. It was released in September 2013 for PlayStation 3 and Xbox 360, in November 2014 for PlayStation 4 and Xbox One, and in April 2015 for Microsoft Windows. It is the first main entry in the Grand Theft Auto series since 2008's Grand Theft Auto IV. Set within the fictional state of San Andreas, based on Southern California, the single-player story follows three criminals and their efforts to commit heists while under pressure from a government agency. The open world design lets players freely roam San Andreas' open countryside and the fictional city of Los Santos, based on Los Angeles." ,
+    "imageUrl": "assets/5.png",
+    "type": "Action",
+    "whoHas": ["Trevor"],
+    "whoWant": ["Newbie"]
+  },
+  {
+    "id" : "6",
+    "name" : "Tomb Raider",
+    "description":"Tomb Raider is presented in third-person perspective. Players take control of the series lead character Lara Croft. The game uses an interconnected hub-and-spoke model that combines action-adventure, exploration, and survival mechanics.[7] Players can traverse between the camps and across the island using footpaths, improvised or already-available ziplines and climbable tracks. Many of the players moves are carried over from the previous games created by Crystal Dynamics, with some tweaks added, such as incorporating elements of stealth gameplay. Quick Time Events are scattered at regular intervals throughout the game, often appearing at crucial or fast-moving points in the game's plot, such as extracting a shard of metal, and escaping a collapsing cave." ,
+    "imageUrl": "assets/6.png",
+    "type": "Action, Adventure",
+    "whoHas": ["LaraCroft"],
+    "whoWant": ["BadBoy","Newbie"]
+  }
+
+]

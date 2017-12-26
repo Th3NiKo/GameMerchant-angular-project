@@ -1,0 +1,6 @@
+<form novalidate>
+  <p>Login</p> <input type="text" #login>
+  <p>Password</p> <input type="password" #password>
+  <span><button type="button" (click)="checkLogin(login.value, password.value)">Zaloguj</button></span>
+  <p *ngIf="isError" class="error">There is no user with this login and password</p>
+</form>

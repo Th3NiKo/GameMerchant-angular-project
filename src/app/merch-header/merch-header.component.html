@@ -1,0 +1,5 @@
+<div class="header">
+  <img class="logo" src="/../../assets/logo.png"/>
+  <a *ngIf="!isLogged" [routerLink]="['/login']" class="login">Login</a>
+  <a (click)="logout()" [routerLink]="['/home']" *ngIf="isLogged" class="login">Logout</a>
+</div>

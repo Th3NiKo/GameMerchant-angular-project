@@ -1,0 +1,21 @@
+<h1>
+    {{game?.name}}
+  </h1>
+<div>
+
+<div>
+<img *ngIf="game" [src]="game?.imageUrl">
+<p class="label">Description:</p>
+<p>{{game?.description}}</p>
+<p class="label">Type:</p>
+<p>{{game?.type}}</p>
+<span class="label">Users having this game:</span>
+<span class="link" *ngFor="let user of game?.whoHas" [routerLink]="['/user', user]">{{user}} </span> <br>
+<span class="label">Users searching this game:</span>
+<span class="link" *ngFor="let user of game?.whoWant" [routerLink]="['/user', user]">{{user}} </span>
+<div *ngIf="isLogged">
+<app-merch-game-trade *ngIf="game" [game]="game"></app-merch-game-trade>
+</div>
+</div>
+
+</div>

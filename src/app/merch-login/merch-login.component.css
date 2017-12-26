@@ -1,0 +1,26 @@
+form {
+    color: white;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+table {
+    border: 1px solid white;
+}
+
+input {
+    min-height: 30px;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+}
+span{
+    display:block;
+}
+
+.error{
+    color:red;
+    font-size: 1.25em;
+}

@@ -1,0 +1,8 @@
+<div>
+    <h2 style="clear:both;">My Games</h2>
+    <app-merch-game-list [GameList] = "UserGames" [UserList] = "[user]" [showSearched] = "false" [showLogin] = "false"></app-merch-game-list>
+</div>
+<div >
+    <h2 style="clear:both;">Games I search</h2>
+    <app-merch-game-list [GameList] = "UserSearch" [UserList] = "[user]" [showOwned] = "false" [showLogin] = "false"></app-merch-game-list>
+</div>

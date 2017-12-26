@@ -1,0 +1,20 @@
+div {
+    color: white;
+}
+img {
+    float:left;
+    margin-right:15px;
+}
+
+.label {
+    font-size: 1.15em;
+    color: darkred;
+}
+h1{
+    color:white;
+}
+
+.link:hover{
+    color: blue;
+    cursor: pointer;
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id" : 0,
+    "login" : "SoulsLover",
+    "password" : "abc123",
+    "rates": [5,5,4],
+    "comments": ["Everything alright!", "Polecam tego allegrowicza"]
+  },
+  {
+    "id" : 1,
+    "login" : "Newbie",
+    "password" : "abc123",
+    "rates": [],
+    "comments": []
+  },
+  {
+    "id" : 2,
+    "login" : "BadBoy",
+    "password" : "abc123",
+    "rates": [1],
+    "comments": ["Oszukaniec! Uwazajcie ;/"]
+  },
+  {
+    "id" : 3,
+    "login" : "DragonBlood",
+    "password" : "abc123",
+    "rates": [4,4],
+    "comments": ["Relevant guy", "Ez trade"]
+  },
+  {
+    "id" : 4,
+    "login" : "Geralt99",
+    "password" : "abc123",
+    "rates": [5],
+    "comments": ["Funny guy"]
+  },
+  {
+    "id" : 5,
+    "login" : "FastAndFurious",
+    "password" : "abc123",
+    "rates": [3],
+    "comments": ["Had to wait long time..."]
+  },
+  {
+    "id" : 6,
+    "login" : "Trevor",
+    "password" : "abc123",
+    "rates": [1,2,1],
+    "comments": ["Crazy guy!", "Lol dont even try to trade game with him", "He sent me naked photos!!"]
+  },
+  {
+    "id" : 7,
+    "login" : "LaraCroft",
+    "password" : "abc123",
+    "rates": [5],
+    "comments": ["Nice person :)"]
+  }
+]

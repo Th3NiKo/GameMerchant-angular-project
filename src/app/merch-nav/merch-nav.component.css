@@ -1,0 +1,22 @@
+.nav {
+    height: 50px;
+    background-color: #300032;
+    border: blue solid 1px;
+    display: flex;
+    flex-direction: row;
+    vertical-align:middle;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+a{
+    margin: 15px;
+    color:white;
+    text-decoration: none;
+    transition:0.3s;
+}
+
+a:hover {
+    color:red;
+}

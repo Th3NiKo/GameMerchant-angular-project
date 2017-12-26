@@ -1,0 +1,9 @@
+<div class="nav">
+  <a [routerLink]="['/home']">HOME</a>
+  <a [routerLink]="['/alloffers']">ALL OFFERS</a>
+  <section  *ngIf="isLogged"> 
+  <a [routerLink]="['/userProfile']">MY PROFILE</a>
+  <a [routerLink]="['/userGames']">MY GAMES</a>
+  <a [routerLink]="['/userManage']">MANAGE GAMES</a>
+  </section>
+</div>

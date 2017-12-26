@@ -1,0 +1,9 @@
+<div>
+<h2 style="clear:both;">Games owned by users</h2>
+
+<app-merch-game-list [GameList] = "GameList" [UserList] = "UserList" [showSearched] = "false"></app-merch-game-list>
+</div>
+<div>
+<h2 style="clear:both;">Games searched by users</h2>
+<app-merch-game-list [GameList] = "GameList" [UserList] = "UserList" [showOwned] = "false"></app-merch-game-list>
+</div>

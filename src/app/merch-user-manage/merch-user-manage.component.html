@@ -1,0 +1,48 @@
+<h2>Manage games</h2>
+<div class="container">
+
+<div class="center">
+  <p>Add game:</p>
+  <select [ngModel] = "selected" #ref>
+    <option *ngFor="let game of AllGames">
+    {{game.name}}
+    </option>
+  </select>
+</div>
+<div class="box">
+
+  <button (click)="addToGames(ref.value)">Add to my games</button> 
+  <button (click)="addToSearch(ref.value)">Add to searched games</button>
+
+</div>
+<p class="success center" *ngIf="succes1">Success! Game added</p>
+</div>
+
+<div class="container">
+<div class="center">
+<p>Delete game:</p>
+<select [ngModel] = "selected" #ref2>
+    <option *ngFor="let game of UserGames">
+    {{game.name}}|Owned
+    </option>
+    <option *ngFor="let game of UserSearch">
+    {{game.name}}|Searched
+    </option>
+  </select>
+</div>
+<div class="box">
+  <button (click)="deleteGame((ref2.value.split('|'))[0],(ref2.value.split('|'))[1])">Delete</button>
+</div>
+<p class="success center" *ngIf="succes2">Success! Game deleted</p>
+</div>
+
+<div class="container">
+<div class="center">
+<p>Ask admin to add new game to database:</p>
+<p>Game name: </p><input type="text"/>
+</div>
+<div class="box">
+  <button>Send</button>
+</div>
+
+</div>

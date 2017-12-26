@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    color:white;
+}
+
+.main {
+    text-align: center;
+    color: white;
+    font-size: 1.25em;
+    display: flex;
+    flex-direction: column;
+    vertical-align:middle;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.text {
+    max-width: 600px;
+}
+
