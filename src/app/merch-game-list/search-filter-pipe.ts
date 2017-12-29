@@ -5,6 +5,7 @@ import { IGame } from '../games/games';
  name: 'searchfilter'
 })
 
+//Pipe for filtering text by any string
 @Injectable()
 export class SearchFilterPipe implements PipeTransform {
  transform(items: IGame[], value: string): any[] {

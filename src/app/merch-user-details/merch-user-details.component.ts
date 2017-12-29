@@ -28,7 +28,7 @@ export class MerchUserDetailsComponent implements OnInit {
               private _userService: UsersService, private _userGameService: UsersGameService) {
                 this.rating = 0;
                 this.trueLogin = ".";
-               }
+  }
 
   ngOnInit(){
     this._route.params.subscribe(params => {

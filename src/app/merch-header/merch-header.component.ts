@@ -1,4 +1,4 @@
-import { Component, OnInit, } from '@angular/core';
+import { Component } from '@angular/core';
 import { UserLogged } from '../users/userLogged';
 import { OnChanges, SimpleChanges } from '@angular/core/src/metadata/lifecycle_hooks';
 
@@ -7,21 +7,12 @@ import { OnChanges, SimpleChanges } from '@angular/core/src/metadata/lifecycle_h
   templateUrl: './merch-header.component.html',
   styleUrls: ['./merch-header.component.css']
 })
-export class MerchHeaderComponent implements OnInit {
+export class MerchHeaderComponent{
   isLogged: boolean;
-  constructor(private _userLogged:UserLogged) { 
+  constructor(private _userLogged:UserLogged) {}
 
-  }
-
-  ngOnInit() {
-    
-  }
   ngAfterContentChecked() {
     this.isLogged = this._userLogged.Logged();
-    
-  }
-  ngAfterViewChecked() {
-    
   }
 
   public logout():void{

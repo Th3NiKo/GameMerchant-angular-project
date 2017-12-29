@@ -61,6 +61,24 @@
     "type": "Action, Adventure",
     "whoHas": ["LaraCroft"],
     "whoWant": ["BadBoy","Newbie"]
+  },
+  {
+    "id" : "7",
+    "name" : "StarCraft II: Wings of Liberty",
+    "description":"StarCraft II: Wings of Liberty features the return of the three species from the original game: Protoss, Terran, and Zerg. In the Terran campaign, the original StarCraft briefing room is replaced with an interactive version of the battlecruiser Hyperion, with Jim Raynor, now a bitter and hard-drinking mercenary captain, as the central character. In a departure from previous Blizzard games, the campaign is non-linear, with Raynor taking jobs for money and using that money to buy additional units and upgrades. Although each play through will vary, the end result remains consistent, keeping the storyline linear. Blizzard's Vice President Rob Pardo stressed that each campaign will function very differently. The Terran campaign, Wings of Liberty, places players in a mercenary-style campaign, as Terran rebel group Raynor's Raiders raise funds by taking assignments from outside groups. The second release, Heart of the Swarm, is Zerg-focused and has role-playing elements. Kerrigan is the focus of the campaign, and the story revolves around the possibility of her redemption. The Protoss-themed Legacy of the Void is the final expansion, with the Protoss Artanis attempting to reunite the Protoss tribes in order to stop Amon, a fallen Xel'Naga." ,
+    "imageUrl": "assets/7.png",
+    "type": "RTS",
+    "whoHas": ["KoreanKid"],
+    "whoWant": []
+  },
+  {
+    "id" : "8",
+    "name" : "StarCraft II: Heart of the Swarm",
+    "description":"Heart of the Swarm has 20 missions in the campaign (plus seven evolution missions which allows the player to upgrade its units), and continues the story from Wings of Liberty. The player plays from the perspective of Sarah Kerrigan, recently returned to her human form by Jim Raynor. Similar to Wings of Liberty, the briefing room is replaced with an interactive exploration of the Leviathan, an enormous Zerg breed which functions as a bioship. Kerrigan and her allies are located in the nerve center. She has a personal chamber for altering her abilities, and there is an evolution pit where she can upgrade her units and perform evolution missions with the evolution master Abathur." ,
+    "imageUrl": "assets/8.png",
+    "type": "RTS",
+    "whoHas": ["KoreanKid"],
+    "whoWant": []
   }
 
 ]

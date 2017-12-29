@@ -54,5 +54,13 @@
     "password" : "abc123",
     "rates": [5],
     "comments": ["Nice person :)"]
+  },
+  {
+    "id" : 8,
+    "login" : "KoreanKid",
+    "password" : "abc123",
+    "rates": [5,5],
+    "comments": ["What a pro!", "Amazing"]
   }
+
 ]

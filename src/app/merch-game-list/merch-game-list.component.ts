@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { IGame } from '../games/games'
 import { IUser } from '../users/users';
 import { SearchFilterPipe } from './search-filter-pipe';
@@ -10,7 +10,8 @@ import { SearchFilterPipe } from './search-filter-pipe';
 
 })
 
-export class MerchGameListComponent implements OnInit {
+//Multiusable list of games.
+export class MerchGameListComponent{
 
   @Input()
   GameList: IGame[];
@@ -35,21 +36,11 @@ export class MerchGameListComponent implements OnInit {
     this.showLogin = true;
   }
 
-  ngOnInit() {
-  }
-
   public getUserByID(userId: number): IUser{
     return this.UserList[userId];
 
   }
 
-  public isUserInList(login: string): boolean{
-    for(var i = 0 ; i < this.UserList.length; i++){
-      if(this.UserList[i].login == login){
-        return true;
-      }
-    }
-    return false;
-  }
+
 
 }

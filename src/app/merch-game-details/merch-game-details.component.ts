@@ -17,17 +17,15 @@ export class MerchGameDetailsComponent implements OnInit {
   game: IGame;
   isLogged:boolean;
   constructor(private _route: ActivatedRoute, private _userLogged: UserLogged, 
-              private _userGameService: UsersGameService) { 
-                this.isLogged = _userLogged.Logged();
-
-              }
+              private _userGameService: UsersGameService) {}
 
   ngOnInit(){
+    this.isLogged = this._userLogged.Logged();
     this._route.params.subscribe(params => {
         const id: number = params['id'];
         this.game = this._userGameService.getGameById(id);
         
-      })
+    })
       
     
   }

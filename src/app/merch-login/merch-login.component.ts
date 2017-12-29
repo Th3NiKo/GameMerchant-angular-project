@@ -15,13 +15,16 @@ import { isError } from 'util';
 })
 export class MerchLoginComponent implements OnInit {
 
-  constructor(private _userLogged: UserLogged, private router: Router) { }
   isError: boolean;
+
+  constructor(private _userLogged: UserLogged, private router: Router) { }
+
   ngOnInit() {
     this.isError = false;
   }
 
   public checkLogin(login: string, password: string){
+
     this._userLogged.Authorize(login, password);
     if(this._userLogged.Logged() == true){
       this.isError = false;
@@ -29,6 +32,7 @@ export class MerchLoginComponent implements OnInit {
     } else {
       this.isError = true;
     }
+    
   }
 
 }
